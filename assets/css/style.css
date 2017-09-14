@@ -168,12 +168,6 @@ h3 {
   z-index: 1;
 }
 
-#tv {
-  position: absolute;
-  top: 900px;
-  z-index: 1;
-}
-
 #submit {
   background: #4aaaa5;
   color: white;
