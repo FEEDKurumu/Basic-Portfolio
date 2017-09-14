@@ -35,6 +35,7 @@ body {
 }
 
 #menu a {
+  color: #777777;
   text-decoration: none;
 }
 
@@ -101,11 +102,6 @@ hr {
 .connectimg {
   height: 70px;
   width: 70px;
-}
-
-.wrapper {
-  min-height: 100%;
-  margin-bottom: -50px;
 }
 
 .content {
