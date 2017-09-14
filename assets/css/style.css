@@ -124,53 +124,47 @@ hr {
   padding: 3px 0;
 }
 
-.portimg {
-  border: 1px solid #cccccc;
-  height: 255px;
-  width: 255px;
-  margin: 0 15px 10px 0;
+#submit {
+  background: #4aaaa5;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
 }
 
-h3 {
+.portimg { 
+  border: 1px solid #cccccc;
+  position: relative;
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin: 20px 30px;
+}
+
+.portpic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+}
+
+h2 { 
+  position: absolute; 
+  z-index: 100;
+  top: 100px; 
+  left: 0; 
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #ffffff;
   height: 40px;
-  width: 257px;
+  width: 200px;
   background: #4aaaa5;
   text-align: center;
   font-size: 18px;
   padding: 20px 0 0 0;
 }
 
-#keyboard {
-  position: absolute;
-  top: 350px;
-  z-index: 1;
-}
-
-#monitor {
-  position: absolute;
-  top: 350px;
-  left: 817px;
-  z-index: 1;
-}
-
-#phone {
-  position: absolute;
-  top: 625px;
-  z-index: 1;
-}
-
-#tablet {
-  position: absolute;
-  top: 625px;
-  left: 817px;
-  z-index: 1;
-}
-
-#submit {
-  background: #4aaaa5;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
+h3 {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  color: #777777;
 }
